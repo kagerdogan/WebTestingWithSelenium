@@ -37,10 +37,10 @@ public class TestOtomasyonSelenium {
 
         // Login
         WebElement username = driver.findElement(By.name("kullanici"));
-        username.sendKeys("kaganerdogan03@gmail.com");
+        username.sendKeys("Username");
         Thread.sleep(1000);
         WebElement password = driver.findElement(By.id("L-PasswordField"));
-        password.sendKeys("Kagan453_");
+        password.sendKeys("Password");
         Thread.sleep(1000);
         WebElement login = driver.findElement(By.id("gg-login-enter"));
         login.click();
